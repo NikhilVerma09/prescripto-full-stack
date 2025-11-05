@@ -38,3 +38,19 @@ The application provides a feature-rich experience across its three dedicated po
 *  **Doctor Management:** Add new doctor profiles, view the list of all registered doctors, and manage their global availability status.
 
 * **Appointment Oversight:** View all appointments booked across the system and cancel any booking if required.
+
+
+  ## 💻 Tech Stack
+
+| **Component** | **Technology** | **Role** |
+|----------------|----------------|-----------|
+| **Frontend** | React (with Vite) | Patient-facing application interface. |
+| **Admin Panel** | React (with Vite) | Separate application for Admin/Doctor management portals. |
+| **Styling** | Tailwind CSS | Utility-first framework for rapid and responsive UI development. |
+| **Backend** | Node.js, Express.js | REST API server for handling business logic and data routing. |
+| **Database** | MongoDB (Atlas) | Flexible NoSQL database for storing user, doctor, and appointment data. |
+| **Authentication** | JWT, bcrypt | Secure user authentication, token generation, and password hashing. |
+| **File Storage** | Cloudinary | Cloud-based solution for storing profile images and doctor pictures. |
+| **Payment Gateway** | Razorpay / Stripe *(Implemented Razorpay)* | Handling of online consultation fees. |
+| **Deployment** | Render | Hosting for all three services (frontend, backend, admin). |
+
