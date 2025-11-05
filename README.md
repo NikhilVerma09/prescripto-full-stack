@@ -12,11 +12,11 @@ You can access the deployed application using the links below. All three service
 
 ### Main Application (Patient Portal URL):
 
-[Click Here to View the Live Frontend] (e.g., https://prescripto-full-stack-frontend-0d78.onrender.com)
+<a href="https://prescripto-full-stack-frontend-0d78.onrender.com/" title="Click Here to View the Live Frontend">Click Here to View the Live Frontend</a>
 
 ### Admin/Doctor Portal URL:
 
-[Click Here to View the Admin Panel] (e.g., https://prescripto-full-stack-admin-94ii.onrender.com)
+<a href="https://prescripto-full-stack-admin-94ii.onrender.com/" title="Click Here to View the Admin Panel">Click Here to View the Admin Panel</a>
 
 
 ## ✨ Key Features
