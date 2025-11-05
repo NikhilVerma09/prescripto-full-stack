@@ -14,8 +14,23 @@ connectDB()
 connectCloudinary()
 
 // middlewares
+// app.use(express.json())
+// app.use(cors())
+
+// middlewares
 app.use(express.json())
-app.use(cors())
+
+// CORS Configuration
+const allowedOrigins = [
+    'https://prescripto-full-stack-admin-94ii.onrender.com', // आपका Admin URL
+    'https://prescripto-full-stack-frontend-0d78.onrender.com' // **यहाँ अपना लाइव Frontend URL जोड़ें**
+];
+
+app.use(cors({
+    origin: allowedOrigins,
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true // Session या Token के लिए ज़रूरी
+}));
 
 // api endpoints
 app.use("/api/user", userRouter)
