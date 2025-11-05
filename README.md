@@ -6,6 +6,18 @@ Prescripto is a complete, scalable full-stack application for managing doctor ap
 
 This project was developed by following the comprehensive tutorial series by the GreatStack YouTube channel, and has been successfully deployed using Render.
 
+## 🔗 Live Demo / Deployment
+
+You can access the deployed application using the links below. All three services (Frontend, Admin, and Backend API) are hosted on Render.
+
+### Main Application (Patient Portal URL):
+
+[Click Here to View the Live Frontend] (e.g., https://prescripto-full-stack-frontend-0d78.onrender.com)
+
+### Admin/Doctor Portal URL:
+
+[Click Here to View the Admin Panel] (e.g., https://prescripto-full-stack-admin-94ii.onrender.com)
+
 
 ## ✨ Key Features
 
@@ -113,20 +125,47 @@ Open **three separate terminal windows/tabs**, and run the following commands in
 cd backend
 npm install
 npm run server
+```
 
 
 #### 🖥️ Terminal 2 — Fronend
 ```bash
-cd backend
+cd frontend
 npm install
-npm run server
+npm run dev
+```
 
 
-#### 🖥️ Terminal 1 — Backend
+#### 🖥️ Terminal 3 — Admin
 ```bash
-cd backend
+cd admin
 npm install
-npm run server
+npm run dev
+```
+
+Once all three services are running, the application should be accessible:
+
+* **Patient Portal (Frontend):** http://localhost:5173/ (or similar port)
+
+* **Admin/Doctor Portal:**  http://localhost:5174/ (or similar port)
+
+
+ ## 🌐 Deployment (Render)
+ 
+This project has been set up for multi-service deployment on Render, utilizing their free tier services for all three components:
+
+**1** **Prescripto Backend (Web Service):** Handles all API requests.
+
+**2** **Prescripto Frontend (Static Site):** The main patient-facing application.
+
+**3** **Prescripto Admin (Static Site):** The administrative and doctor dashboards.
+
+The CORS configuration in the backend is set up to allow requests from the specific Render URLs for both the Frontend and Admin panels.
+
+
+## 🤝 Contribution
+
+#### Feel free to fork the repository, open issues, or submit pull requests for any improvements or bug fixes.
 
 
 
