@@ -1,19 +1,19 @@
-🏥# Prescripto: Full-Stack Doctor Appointment Booking System
+# 🏥 Prescripto: Full-Stack Doctor Appointment Booking System
 
-🌟##  Project Overview
+## 🌟  Project Overview
 
 Prescripto is a complete, scalable full-stack application for managing doctor appointments, built using the MERN Stack (MongoDB, Express, React, Node.js). It features distinct portals for Patients, Doctors, and an Admin, ensuring comprehensive management of the healthcare ecosystem.
 
 This project was developed by following the comprehensive tutorial series by the GreatStack YouTube channel, and has been successfully deployed using Render.
 
 
-✨##  Key Features
+## ✨ Key Features
 
 The application provides a feature-rich experience across its three dedicated portals:
 
-👤 ### Patient Portal (Frontend)
+### 👤 Patient Portal (Frontend)
 
-* Doctor Search & Filter:*  Browse all available doctors or filter them by specialty (e.g., Dermatologist, General Physician).
+* *Doctor Search & Filter:*  Browse all available doctors or filter them by specialty (e.g., Dermatologist, General Physician).
 
 Appointment Booking: Select a doctor, choose an available date/time slot, and book an appointment.
 
