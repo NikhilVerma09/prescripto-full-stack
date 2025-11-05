@@ -60,10 +60,11 @@ The application provides a feature-rich experience across its three dedicated po
 This repository is organized into three main directories, corresponding to the application's core parts:
 
 prescripto-full-stack/
-├── * **admin/**  # React application for the Admin & Doctor Dashboards
 
-├── * **backend/**  # Node.js/Express API server
+├──  **admin/**  # React application for the Admin & Doctor Dashboards
 
-├── * **frontend/** # React application for the Patient Portal (main website)
+├──  **backend/**  # Node.js/Express API server
 
-└── * **README.md**   # Project information file
+├──  **frontend/** # React application for the Patient Portal (main website)
+
+└──  **README.md**   # Project information file
