@@ -86,49 +86,10 @@ To run this project locally, you need **Node.js** and **npm** installed.
 git clone https://github.com/yourusername/prescripto-full-stack.git
 cd prescripto-full-stack
 
-### 3️⃣ Install Dependencies & Run Services
-
-Open **three separate terminal windows/tabs**, and run the following commands in each:
-
-#### 🖥️ Terminal 1 — Backend
-```bash
-cd backend
-npm install
-npm run server
-
-#### 🖥️ Terminal 1 — Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-
-#### 🖥️ Terminal 1 — Admin
-```bash
-cd admin
-npm install
-npm run dev
-
-Once all three services are running, the application should be accessible:
-
-* **Patient Portal (Frontend):** http://localhost:5173/ (or similar port)
-
-* **Admin/Doctor Portal:** http://localhost:5174/ (or similar port)
-
-
+---
 ### 2️⃣ Configure Environment Variables
 
-Create a `.env` file inside the **backend** directory with the following variables:
 
-| **Variable** | **Description** | **Example** |
-|--------------|-----------------|--------------|
-| `MONGO_URI` | Your MongoDB Atlas connection string. | `mongodb+srv://user:pass@cluster.net/` |
-| `JWT_SECRET` | Secret key for JWT signing. | `YOUR_SUPER_SECRET_KEY` |
-| `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud name. | `dxyz123` |
-| `CLOUDINARY_API_KEY` | Cloudinary API key. | `123456789` |
-| `CLOUDINARY_SECRET_KEY` | Cloudinary API secret. | `abcDEF123` |
-| `RAZORPAY_KEY_ID` | Your Razorpay API Key ID. | `rzp_test_...` |
-| `RAZORPAY_KEY_SECRET` | Your Razorpay API Key Secret. | `yOuR_SeCrEt` |
-| `ADMIN_EMAIL` | Default Admin login email. | `admin@prescripto.com` |
-| `ADMIN_PASSWORD` | Default Admin login password. | `prescripto@admin` |
+
 
 
