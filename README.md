@@ -104,30 +104,3 @@ Create a `.env` file inside the **backend** directory with the following variabl
 | `ADMIN_PASSWORD` | Default Admin login password. | `prescripto@admin` |
 
 
-### 3️⃣ Install Dependencies & Run Services
-
-Open **three separate terminal windows/tabs**, and run the following commands in each:
-
-#### 🖥️ Terminal 1 — Backend
-```bash
-cd backend
-npm install
-npm run server
-
-#### 🖥️ Terminal 1 — Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-
-#### 🖥️ Terminal 1 — Admin
-```bash
-cd admin
-npm install
-npm run dev
-
-Once all three services are running, the application should be accessible:
-
-* **Patient Portal (Frontend):** http://localhost:5173/ (or similar port)
-
-* **Admin/Doctor Portal:** http://localhost:5174/ (or similar port)
