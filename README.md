@@ -59,12 +59,26 @@ The application provides a feature-rich experience across its three dedicated po
 
 This repository is organized into three main directories, corresponding to the application's core parts:
 
-prescripto-full-stack/
+**prescripto-full-stack/**
 
-├──  **admin/**  # React application for the Admin & Doctor Dashboards
+├──  **admin/**      # React application for the Admin & Doctor Dashboards
 
-├──  **backend/**  # Node.js/Express API server
+├──  **backend/**    # Node.js/Express API server
 
-├──  **frontend/** # React application for the Patient Portal (main website)
+├──  **frontend/**   # React application for the Patient Portal (main website)
 
 └──  **README.md**   # Project information file
+
+
+
+## 🚀 Setup & Installation (Local)
+
+To run this project locally, you need **Node.js** and **npm** installed.
+
+---
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/prescripto-full-stack.git
+cd prescripto-full-stack
