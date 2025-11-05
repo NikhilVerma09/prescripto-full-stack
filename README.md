@@ -104,6 +104,31 @@ Create a `.env` file inside the **backend** directory with the following variabl
 | `ADMIN_PASSWORD` | Default Admin login password. | `prescripto@admin` |
 
 
+### 3️⃣ Install Dependencies & Run Services
+
+Open **three separate terminal windows/tabs**, and run the following commands in each:
+
+#### 🖥️ Terminal 1 — Backend
+```bash
+cd backend
+npm install
+npm run server
+
+
+#### 🖥️ Terminal 2 — Fronend
+```bash
+cd backend
+npm install
+npm run server
+
+
+#### 🖥️ Terminal 1 — Backend
+```bash
+cd backend
+npm install
+npm run server
+
+
 
 
 
