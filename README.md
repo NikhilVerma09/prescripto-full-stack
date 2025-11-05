@@ -54,3 +54,13 @@ The application provides a feature-rich experience across its three dedicated po
 | **Payment Gateway** | Razorpay / Stripe *(Implemented Razorpay)* | Handling of online consultation fees. |
 | **Deployment** | Render | Hosting for all three services (frontend, backend, admin). |
 
+
+## 📁 Repository Structure
+
+This repository is organized into three main directories, corresponding to the application's core parts:
+
+prescripto-full-stack/
+├── admin/ # React application for the Admin & Doctor Dashboards
+├── backend/ # Node.js/Express API server
+├── frontend/ # React application for the Patient Portal (main website)
+└── README.md # Project information file
