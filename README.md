@@ -13,26 +13,28 @@ The application provides a feature-rich experience across its three dedicated po
 
 ### 👤 Patient Portal (Frontend)
 
-* *Doctor Search & Filter:*  Browse all available doctors or filter them by specialty (e.g., Dermatologist, General Physician).
+* **Doctor Search & Filter:**  Browse all available doctors or filter them by specialty (e.g., Dermatologist, General Physician).
 
-Appointment Booking: Select a doctor, choose an available date/time slot, and book an appointment.
+* **Appointment Booking:** Select a doctor, choose an available date/time slot, and book an appointment.
 
-Profile Management: Register, login, update personal information, and track all past and upcoming appointments.
+* **Profile Management:** Register, login, update personal information, and track all past and upcoming appointments.
 
-Online Payments: Integrated payment gateway (Razorpay/Stripe was implemented in the tutorial) for instant payment of consultation fees.
+* **Online Payments:** Integrated payment gateway (Razorpay/Stripe was implemented in the tutorial) for instant payment of consultation fees.
 
-Appointment Actions: Cancel pending appointments.
+* **Appointment Actions:** Cancel pending appointments.
 
-👨‍⚕️ ### Doctor Portal
-Personal Dashboard: View total earnings, number of appointments, and total unique patients.
+### 👨‍⚕️ Doctor Portal
 
-Appointment Management: See a list of all booked appointments. Doctors can mark an appointment as Completed or Cancelled.
+* **Personal Dashboard:**  View total earnings, number of appointments, and total unique patients.
 
-Availability Control: Easily update their consultation fee, address, and availability status (Available/Unavailable) which instantly reflects on the patient-facing site.
+* **Appointment Management:** See a list of all booked appointments. Doctors can mark an appointment as Completed or Cancelled.
 
-👑 ### Admin Portal
-System Overview: Comprehensive dashboard displaying key metrics like total registered doctors, total appointments, and total patients.
+* **Availability Control:** Easily update their consultation fee, address, and availability status (Available/Unavailable) which instantly reflects on the patient-facing site.
 
-Doctor Management: Add new doctor profiles, view the list of all registered doctors, and manage their global availability status.
+### 👑 Admin Portal
 
-Appointment Oversight: View all appointments booked across the system and cancel any booking if required.
+* **System Overview:** Comprehensive dashboard displaying key metrics like total registered doctors, total appointments, and total patients.
+
+*  **Doctor Management:** Add new doctor profiles, view the list of all registered doctors, and manage their global availability status.
+
+* **Appointment Oversight:** View all appointments booked across the system and cancel any booking if required.
